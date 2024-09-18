@@ -9,8 +9,9 @@ public class Main {
 
         System.out.println(coordinates);
 
-
-        Player player = Player.builder().addName("David").addMana(100).build();
+        Player player = Player.builder().addName("David").addMana(10)
+                .addAge(18).addHp(100)
+                .build();
         System.out.println(player);
     }
 }
