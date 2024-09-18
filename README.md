@@ -8,3 +8,4 @@ Player player = new Player.PlayerBuilder().setName("Steve").setMana(200).build()
 
 - Upravte Builder tak aby artibuty name a mana byly poviné a instance nešla vytvořit bez zadání těchto hodnot.
 
+![screenshot.JPG](screenshot.JPG)
